@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body,html{
+    overflow-x: hidden;
+    background: hsl(0, 26%, 96%);
+}
+
+/** Header starts here **/
+.header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(images/bgprint.svg);
+    background-position: center;
+    background-size: 150%;
+    padding: 4rem 10rem;
+    border-bottom-left-radius: 6rem;
+    background-repeat: no-repeat;
+    background-color: #a5f0c5;
+}
+
+
+.header .header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.header .header-content h1{
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+    font-family: 'Overpass', sans-serif;
+}
+
+.header .header-content p{
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+
+/** Blogr Description starts here **/
+
+.description{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 10rem 0 3rem 10rem;
+    background: hsl(0, 26%, 96%);
+    z-index: 2;
+}
+
+.description h2{
+    font-size: 2.5rem;
+    color: hsl(208, 49%, 24%);
+    text-align: center;
+    margin-bottom: -4rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.description .description-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.description .description-content .description-content-leftcolumn{
+    flex-basis: 50%;
+}
+
+.description .description-content .description-content-leftcolumn h3{
+    font-size: 1.8rem;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 2.5rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.description .description-content .description-content-leftcolumn p{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+
+.description .description-content .description-content-rightcolumn{
+    position: relative;
+    flex-basis: 50%;
+}
+
+.description .description-content .description-content-rightcolumn .desktop-editor{
+    width: 150%;
+    position: relative;
+}
+
+.description .description-content .description-content-rightcolumn .mobile-editor{
+    display: none;
+}
+
+/** Services starts here **/
+
+.services{
+    width: 100%;
+    padding: 8rem 10rem;
+    position: relative;
+    background: hsl(237, 17%, 21%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 6rem;
+    border-bottom-left-radius: 6rem;
+}
+
+.services .services-rightcolumn{
+    flex-basis: 50%;
+}
+
+.services .services-rightcolumn h4{
+    font-size: 2.3rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+}
+
+.services .services-rightcolumn p{
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    line-height: 1.9rem;
+}
+
+.services .services-leftcolumn{
+    flex-basis: 40%;
+    position: relative;
+    background-image: url(images/illustration-phones.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.services .services-leftcolumn .phone{
+    position: absolute;
+    left: -5rem;
+    top: -16rem;
+    z-index: 3;
+}
+
+.services .services-leftcolumn .circle-pattern{
+    position: absolute;
+    left: -25rem;
+    top: -50rem;
+    z-index: 1;
+    width: 250%;
+}
+
+
+/** Footer starts here **/
+
+footer{
+    width: 100%;
+    padding: 4rem 10rem 6rem;
+    background: hsl(0, 0%, 92%);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-top-right-radius: 6rem;
+}
+
+
